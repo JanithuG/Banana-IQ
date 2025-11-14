@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=League+Spartan:wght@300;400;500&family=Montserrat:wght@500;700&family=Rubik+Scribble&display=swap');
+
+body {
+  background-image: url("../Images/bg_img2.jpg"); /* Correct syntax */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Registration Page Styles */
+
+.regform-align {
+  margin-top: 10px;
+  font-size: x-large;
+  font-family: monospace;
+  width: 70%;
+}
+
+.regform-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 38%;
+  height: 73vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #05241b;
+  border-radius: 42px;
+  box-shadow: 0px 0px 20px #E8BCB9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.regform-group {
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.regform-group label {
+  width: 50%;
+  text-align: right;
+}
+
+.regform-group input {
+  margin: 0px 20px;
+  width: 100%;
+}
+
+.input-field {
+  width: 90%;
+  height: 5vh;
+  margin: 0px 20px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.regformBtn {
+  background: transparent;
+  color: #D9D9D9;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 1% 10%;
+  border: 2px solid #2bff00;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+}
+
+.regformBtn:hover {
+  background-color: #2bff00;
+  color: #000000;
+  box-shadow: 0 0 20px #2bff00;
+}
+
+.cancelbtn {
+  background: transparent;
+  color: #D9D9D9;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 1% 10%;
+  border: 2px solid #ff0000;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+}
+
+.cancelbtn:hover {
+  background-color: #ff0000;
+  color: #000000;
+  box-shadow: 0 0 40px #ff0000;
+}
+
+.text{
+  padding-top: 10px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+}
